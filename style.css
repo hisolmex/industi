@@ -52,23 +52,6 @@ body {
 .col-12 {width: 100%;}
 .col-20 {width: 20%;}
 .col-40 {width: 40%;}
-.col-offset-1 {margin-left: 8.33%;}
-.col-offset-2 {margin-left: 16.66%;}
-.col-offset-3 {margin-left: 25%;}
-.col-offset-4 {margin-left: 33.33%;}
-.col-offset-5 {margin-left: 41.66%;}
-.col-offset-6 {margin-left: 50%;}
-.col-offset-7 {margin-left: 58.33%;}
-.col-offset-8 {margin-left: 66.66%;}
-.col-offset-9 {margin-left: 75%;}
-.col-offset-10 {margin-left: 83.33%;}
-.col-offset-11 {margin-left: 91.66%;}
-.col-offset-12 {margin-left: 100%;}
-
-.content {
-	min-height: 910px;
-	background: #eee;
-}
 .footer {
 	min-height: 72px;
 	background: #1683ca;
@@ -254,6 +237,10 @@ a.newslatter-a:hover {
 }
 .banners {
 	min-height: 210px;
+}
+.img-logo {
+	max-width: 200px;
+	
 }
 .banners-img {
 	margin-top: 40px;
@@ -797,31 +784,19 @@ p.widget-tomorow-temperature {
 	}
 }
 @media (max-width: 348px) {
-	.events-p {
-		font-size: 13px;
+	.flexsearch--input {
+		padding: 12px 23px;
 	}
-	span.sep {
-		display: none;
+	.header-top {
+		overflow: hidden;
+		height: 82px;
 	}
-	p.event-p-time {
-		font-size: 13px;
+	p.header-p {
+		line-height: 16px;
 	}
-	p.event-p-name {
-		font-size: 13px;
-	}
-	.events-box-p {
-		padding-left: 6px;
-	}
-	p.under-footer-p {
-		text-align: justify;
-	}
-	.footer-socil-icon2 {
-		float: left;
-	}
-	.footer-ul > li {
-		text-align: justify;
-	}
-	.social-icon-ul {
-		float: left;
+	.header-time {
+		margin: 0;
+		padding: 0;
+		margin-top: 6px;
 	}
 }
