@@ -606,6 +606,14 @@ p.widget-tomorow-temperature {
 	font-size: 34px;
 	font-family: 'TitilliumText22L004';
 }
+.social-box {
+    display: inline-block;
+    width: 100%;
+	margin-top: 17px;
+}
+.rss,.fb,.google-plus {
+    float: left;
+}
 @media (max-width: 1230px) {
 	a.header-logo-a {
 		margin-left: 10px;
