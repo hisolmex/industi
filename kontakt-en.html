@@ -1,0 +1,509 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <title>NewsyLotnicze.eu</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Seba">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ONLY FONTS  -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon" />
+  <script>
+  <!-- Miejsce na javascript-->
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<!--HEADER -->
+	<header class="header">
+		<nav class="container">
+			<div class="header-top">
+				<div class="header-time">
+					<p class="header-p upper">Sunday, March 17, 2015
+					<div class="header-box-a">
+						<a class="header-a" href="#/">Register</a>
+						<a class="header-a" href="#/">/ Sign in</a>
+					</div>
+				</div>
+				<div class="header-lang">
+					<div class="header-lang-box">
+						<div class="header-lang-pl">
+							<a class="header-a" href="#DE/"><p class="header-p">DE</p></a>
+						</div>
+						<div class="header-lang-pl header-lang-active">
+							<a class="header-a" href="#EN/"><p class="header-p header-p-active">EN</p></a>
+						</div>
+						<div class="header-lang-pl">
+							<a class="header-a" href="kontakt.html"><p class="header-p ">PL</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-page">
+				<!-- LOGO -->
+				<a class="header-logo-a" href="index-en.html"><img class="img-logo" src="img/logo.jpg"  title="logo" alt="logo"></a>
+				
+				<div class="widget">
+					<div class="widget-tomorow">
+						<div class="widget-tomorow-box-p">
+							<p class="widget-tomorow-p">now</p>
+							<p class="widget-tomorow-temperature">22&deg;</p>
+						</div>
+						<div class="widget-img">
+							<img class="" src="img/6.png"  alt="s" title="s">
+						</div>
+						<p class="widget-tomorow-p2">Partly cloudy</p>
+					</div>
+					<div class="widget-tomorow">
+						<div class="widget-tomorow-box-p">
+							<p class="widget-tomorow-p">tomorow</p>
+							<p class="widget-tomorow-temperature">22&deg;</p>
+						</div>
+						<div class="widget-img">
+							<img class="" src="img/5.png"  alt="s" title="s">
+						</div>
+						<p class="widget-tomorow-p2">Sunny</p>
+					</div>
+				</div>
+				<div class="search">
+					<input class="flexsearch--input" type="search" placeholder="Enter what you are looking for...">
+				</div>
+			</div>
+			<!-- MENU -->
+			<ul class="header-ul">
+				<li><a class="nav-a" href="index-en.html">Home</a></li>
+				<li><a class="nav-a" href="#aktualnosci/">News</a></li>
+				<li><a class="nav-a" href="#pogoda/">Weather</a></li>
+				<li><a class="nav-a" href="#galeria/">Gallery</a></li>
+				<li><a class="nav-a" href="#kalendarium/">Calendar</a></li>
+				<li><a class="nav-a" href="#konkursy/">Competitions</a></li>
+				<li><a class="nav-a" href="#forum/">Forum</a></li>
+				<li><a class="nav-a" href="#lokalne-firmy/">Local Companies</a></li>
+				<li><a class="nav-a" href="#filmy/">Movies</a></li>
+				<li><a class="nav-a" href="kontakt-en.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- TEMPLATE SECTION 
+	<section class="">
+		<div class="container">
+			<div class="row">
+			</div>
+		</div>
+	</section>
+	-->
+	<!-- CONTACT -->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+				<div class="nav-ul2">
+					<div class="nav-ul2-box">
+						<a href="index-en.html" class="nav-ul2-page">Home</a><div class="triangle">
+						</div> <a href="kontakt-en.html" class="blue">Contact</a>
+					</div>
+				</div>
+					<h2>Contact</h2>
+					<div class="border"></div>
+					<div class="row">
+						<div class="col-6">
+							<p class="contact-p bold">Powiat District Office in Świdnik</p>
+							<p class="contact-p">Street of Independence 13,21-040 Świdnik</p>
+						</div>
+						<div class="col-6">
+							<p class="contact-p">Department of External Funds</p>
+							<p class="contact-p">phone<span class="blue-span">81 468 70 80</span>, fax  <span class="blue-span">81 468 70 85</span></p>
+						</div>
+					</div>
+					<h2>Contact form</h2>
+					<div class="border"></div>
+					<div class="row">
+						<form action="form.php" method="get">
+							<div class="col-6 left">
+								<div class="form-group">
+									<label class="col-12 left" for="name">Name /Surname :</label>
+									<div class="">
+										<input type="name" class="form-control2" id="name" placeholder="">
+									</div>
+								</div>
+							</div>
+							<div class="col-6 left">
+								<div class="form-group">
+									<label class="col-12 left" for="mail"> E-mail: </label>
+									<div class="">
+										<input type="mail" class="form-control2" id="mail" placeholder="">
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-group">
+									<label class="col-12 left" for="message">Message: </label>
+									<div class="">
+										<textarea class="form-control2" id="message" rows="4" cols="30"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 left">
+								<input type="submit" value="Send message" class="btn">
+							</div>
+						</form>
+					</div>
+					<div class="row">
+						<h2>Map directions</h2>
+						<div class="border"></div>
+						<div class="map">
+							<img class="gallery-img padding-img"  src="img/map.jpg"  alt="s" title="s">
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-4">
+					<h2>Find us</h2>
+					<div class="border">
+					</div>
+					<div class="row">
+						<div class="social-box">
+							<div class="rss">
+								<a href ="#rss/"><img  src="img/rss.jpg"  alt="s" title="s"></a>
+							</div>
+							<div class="fb">
+								<a href ="https://www.facebook.com/LotniczeDepultycze/?fref=ts"><img  src="img/fb.jpg"  alt="s" title="s"></a>
+							</div>
+							<div class="google-plus">
+								<a href ="https://plus.google.com/collection/8AcNME"><img src="img/google.jpg"  alt="s" title="s"></a>
+							</div>
+						</div>
+					</div>
+					<h2>News</h2>
+					<div class="border">
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<a href ="#zawody/"><img class="gallery-img" src="img/ob1.jpg"  alt="s" title="s"></a>
+							<p class="news-p">V Parachuting Games 2010</p>
+						</div>
+						<div class="col-6">
+							<a href ="#budowa/"><img class="gallery-img" src="img/ob2.jpg"  alt="s" title="s"></a>
+							<p class="news-p">Construction of Helicopter S-W4</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<a href ="#rajd/"><img class="gallery-img" src="img/ob3.jpg"  alt="s" title="s"></a>
+							<p class="news-p">Tadeusz Góra Rally 2016</p>
+						</div>
+						<div class="col-6">
+							<a href ="#smiglowiec/"><img class="gallery-img" src="img/ob4.jpg"  alt="s" title="s"></a>
+							<p class="news-p">Helicopter Sokół History</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<a href ="#zawody2/"><img class="gallery-img" src="img/ob5.jpg"  alt="s" title="s"></a>
+							<p class="news-p">V Parachuting Games 2010</p>
+						</div>
+						<div class="col-6">
+							<a href ="#budowa/"><img class="gallery-img" src="img/ob6.jpg"  alt="s" title="s"></a>
+							<p class="news-p">Construction of Helicopter S-W4</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<a href ="#areoklub/"><img class="gallery-img" src="img/ob7.jpg"  alt="s" title="s"></a>
+							<p class="news-p">Lublin Aerobics announces new recruitment</p>
+						</div>
+						<div class="col-6">
+							<a href ="#nowe/"><img class="gallery-img" src="img/ob8.jpg"  alt="s" title="s"></a>
+							<p class="news-p">New motorcycles from ROTAX</p>
+						</div>
+					</div>
+					
+					
+					
+					
+				<div class="c">
+					<h2>New post</h2>
+					<div class="border">
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/kobieta.jpg"  alt="s" title="s">
+						<div class="events-box-p">
+							<p class="events-p">Chełmski PWSZ has such materials, last...</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Adam Steć</p>
+								<p class="event-p-time">5 minutes ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/kobieta2.jpg" alt="s" title="s">
+						<div class="events-box-p">
+							<p class="events-p">Funkcję pierwszego dyrektora z tego co wiem pełnił...</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Lama Lamitsu</p>
+								<p class="event-p-time">5 minutes ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/facet2.jpg"  alt="s" title="s">
+						<div class="events-box-p">
+							<p class="events-p">Depends if you look at it from a pilot's perspective shovel...</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Pani Madzia</p>
+								<p class="event-p-time">5 minutes ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/kobieta3.jpg"  alt="s" title="s">
+						<div class="events-box-p">
+							<p class="events-p">I was there last year and I can say from the whole....</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Janka Kowalska</p>
+								<p class="event-p-time">Today 01:11</p>
+							</div>
+						</div>
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/facet3.jpg"  alt="s" title="s">
+						<div class="events-box-p">
+							<p class="events-p">I recommend going to the History Zone in Swidnik, ta...</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Moris Moos</p>
+								<p class="event-p-time">Yesterday 22:11</p>
+							</div>
+						</div>
+					</div>
+					<div class="new-post">
+						<img class="events-img" src="img/facet1.jpg" alt="fd" title="fd">
+						<div class="events-box-p">
+							<p class="events-p">Chełmski PWSZ has such materials, last...</p>
+							<div class="events-box-p2">
+								<p class="event-p-name">Ładna Pani</p>
+								<p class="event-p-time">Yesterday 21:16</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>	
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FORUM -->
+	<section class="forum">
+		<div class="container">
+			<div class="row">
+				<h2>Last in the forum</h2>
+				<div class="border">
+				</div>
+				<div class="col-3">
+					<div class="forum-box">
+						<span class="forum-span">Airplanes</span>
+						<h4>Rade Tadeusz Mountains</h4>
+						<div class="forum-box-p">
+							<p class="forum-p">
+								Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, 
+								nisi elit consequat ipsum, nec sagittis sem nibh 
+								id elit. Duis sed odio sit amet nibh vulputate cursus
+								sit amet mauris. Morbi accumsan ipsum velit.
+							</p>
+						</div>
+						<hr class="style1">
+						<div class="forum-box2">
+							<div class="forum-box-user">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<p class="forum-p-name">Jan Kowalski</p>
+							</div>
+							<div class="forum-box-time">
+								<p class="forum-p-time">25 March</p>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="forum-box">
+						<span class="forum-span">Competition</span>
+						<h4>IV SPADOCHRON GAMES</h4>
+						<div class="forum-box-p">
+							<p class="forum-p">
+								Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, 
+								nisi elit consequat ipsum, nec sagittis sem nibh 
+								id elit. Duis sed odio sit amet nibh vulputate cursus
+								sit amet mauris. Morbi accumsan ipsum velit.
+							</p>
+						</div>
+						<hr class="style1">
+						<div class="forum-box2">
+							<div class="forum-box-user">
+								
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<p class="forum-p-name">Jan Kowalski</p>
+							</div>
+							<div class="forum-box-time">
+								<p class="forum-p-time">25 March</p>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="forum-box">
+						<span class="forum-span">Aviation legend</span>
+						<h4>Sokol W-3RM SPECIFICATION</h4>
+						<div class="forum-box-p">
+							<p class="forum-p">
+								Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, 
+								nisi elit consequat ipsum, nec sagittis sem nibh 
+								id elit. Duis sed odio sit amet nibh vulputate cursus
+								sit amet mauris. Morbi accumsan ipsum velit.
+							</p>
+						</div>
+						<hr class="style1">
+						<div class="forum-box2">
+							<div class="forum-box-user">
+								
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<p class="forum-p-name">Jan Kowalski</p>
+							</div>
+							<div class="forum-box-time">
+								<p class="forum-p-time">25 March</p>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<a href ="#/" target="_blank"><img class="gallery-img padding-img opacity " src="img/banner-gray.jpg"  alt="s" title="s"></a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- BANNERS -->
+	<section class="banners">
+		<div class="container">
+			<div class="row">
+				<div class="banners-box-all margin-banner">
+					<div class="banners-box">
+						<a href="#baner1/" class="banners-a" target="_blank"><img class="banners-img opacity " src="img/all_03.jpg"  alt="s" title="s"></a>
+					</div>
+					<div class="banners-box">
+						<a href="#baner2/" class="banners-a" target="_blank"><img class="banners-img margin-img opacity " src="img/all_05.jpg"  alt="s" title="s"></a>
+					</div>
+					<div class="banners-box">
+						<a href="#baner3/" class="banners-a" target="_blank"><img class="banners-img opacity " src="img/all_07.jpg"  alt="s" title="s"></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- NEWSLATTER -->
+	<section class="newslatter">
+		<div class="gray-filter">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<h3 class="newslatter-h3">Find us on facebook</h3>
+						<p class="newslatter-p">Games, contests, latest news.</p>
+						
+						<div class="facebook-api">
+						</div>
+					</div>
+					<div class="col-4">
+						<h3 class="newslatter-h3">Shortcuts</h3>
+						<div class="newslatter-box-ul">
+							<ul class="newslatter-ul">
+								<li class="newslatter-li"><a class="newslatter-a" href="#stona-glowna">-Home</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#aktualnosci">-News</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#pogoda">-Weather</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#galeria">-Gallery</a></li>
+							</ul>
+							<ul class="newslatter-ul margin-ul">
+								<li class="newslatter-li"><a class="newslatter-a" href="#kalendarium">-Calendar</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#konkursy">-Competitions</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#forum">-Forum</a></li>
+								<li class="newslatter-li"><a class="newslatter-a" href="#lokalne-firm">-Local Companies</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-4">
+						<h3 class="newslatter-h3">Newslatter</h3>
+						<div class="form-control">
+							<input type="text" placeholder="adam.stec@gmail.com">
+							<button type="button" class="btn">
+								save me
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-icon">
+				<img src="img/footer.jpg" alt="e" title="f">
+				<p class="footer-p">&copy; Lotniczy 2014-2015
+			</div>
+			<div class="footer-socil-icon2">
+				<ul class="social-icon-ul">
+					<li><a href="https://www.facebook.com/" class="social-icon-a" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/" class="social-icon-a" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.youtube.com/" class="social-icon-a" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-list">
+				<ul class="footer-ul">
+					<li><a class="footer-a" href="#polityka-cookies">Cookies Policy <span class="sep"> | </span></a></li>
+					<li><a class="footer-a" href="#logowanie">Partner Login <span class="sep"> | </span></a></li>
+					<li><a class="footer-a"  href="#prywatnosc">Privacy<span class="sep"> | </span></a></li>
+					<li><a class="footer-a" href="#podziel-sie">Share :</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+	<!-- UNDER-FOOTER -->
+	<section class="under-footer">
+		<div class="container">
+			<div class="row">
+				<p class="under-footer-p">
+				Website implemented under the project " "Development of the economic potential of the Świdnicki District through the creation of an airport incubator" co-financed by the European Regional Development Fund and targeted state subsidy implemented within the Regional Operational Program of Lubelskie Voivodeship for the years 2007-2013.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+</body>
+</html>

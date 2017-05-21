@@ -243,7 +243,7 @@ a.newslatter-a:hover {
 	
 }
 .banners-img {
-	margin-top: 40px;
+	margin-top: 0;
 }
 .margin-img {
 	margin-left: 30px;
@@ -259,6 +259,20 @@ a.newslatter-a:hover {
 .events {
 	min-height: 521px;
 }
+.events .forum-box {
+	padding: 0;
+}
+.events .forum-box h4,p.forum-p, .forum-box2 {
+	padding: 10px;
+}
+.events .col-7 {
+	margin: 0;
+	padding: 0;
+}
+.events .col-5 {
+	margin: 0;
+	padding: 0;
+}
 .max-width {
 	max-width: 472px;
 }
@@ -273,6 +287,22 @@ h2 {
 	margin-left: 15px;
 	text-transform: uppercase;
 }
+p.info-forum-p {
+    color: #1c7ac1;
+	background: white;
+	padding: 35px 12px;
+	font-size: 36px;
+	font-family: 'Raleway-Regular';
+	text-align: center;
+	border: 5px;
+	float: none;
+}
+.info-forum-box {
+	margin-top: 90px;
+}
+.margin-banner {
+	margin-top: 30px;
+}
 .border {
 	border-bottom: 4px solid #ededed;
 	margin-bottom: 28px;
@@ -280,11 +310,17 @@ h2 {
 	margin-right: 15px;
 }
 .new-post {
-	min-height: 90px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0);
-	border-top: 1px solid rgba(255, 255, 255, 0);
-	display: inline-block;
-	width: 100%;
+    min-height: 90px;
+    border-bottom: 1px solid rgba(176, 176, 176, 0.31);
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    display: inline-block;
+    width: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.new-post:hover {
+	background: white;
+	cursor: pointer;
 }
 .events-p {
 	color: #1683ca;
@@ -614,7 +650,112 @@ p.widget-tomorow-temperature {
 .rss,.fb,.google-plus {
     float: left;
 }
+.history .col-3 {
+	margin: 0;
+	padding: 0;
+}
+.history .col-4 {
+	margin: 0;
+	padding: 0;
+}
+.video {
+    display: inline-block;
+}
+p.contact-p {
+	color: #585757;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+span.blue-span {
+    color: #1683ca;
+	font-family: 'Open Sans',;
+	font-weight: bold;
+}
+.bold {
+	font-weight: bold;
+}
+a.blue {
+	color: #1683ca;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.triangle {
+	width: 0;
+	float: left;
+	height: 0;
+	border-style: solid;
+	border-width: 3px 0 3px 5.2px;
+	border-color: transparent transparent transparent #007bff;rder-color: transparent transparent transparent #007bff;
+	margin-left: 10px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.nav-ul2 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.nav-ul2-box {
+	float: left;
+	
+}
+.btn {
+    margin-top: 15px;
+    border: solid 2px #1b7bc3;
+    color: #fff;
+    border-radius: 3px;
+    background: #1b7bc3;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    padding: 8px 20px;
+	cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.33;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+	background: #1c66a1;
+}
+.left {
+	text-align: left;
+}
+.form-control2{
+	width: 100%;
+	background: none;
+	padding: 12px 12px;
+	border: 2px solid #e0e0e0;
+}
+
+.form-group label {
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #585757;
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+textarea {
+	resize: none;
+	width: 100%;
+	background: none;
+	min-height: 276px;
+	border: 2px solid #e0e0e0;
+}
+a.nav-ul2-page {
+    float: left;
+	color: #949494;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+}
 @media (max-width: 1230px) {
+	.new-post {
+		padding: 10px;
+	}
 	a.header-logo-a {
 		margin-left: 10px;
 	}
@@ -646,6 +787,14 @@ p.widget-tomorow-temperature {
 	.widget {
 		float: none;
 	}
+	.contact .col-8 {
+		display: block;
+		width: 100%;
+	}
+	.contact .col-4 {
+		display: block;
+		width: 100%;
+	}
 	.search {
 		float: none;
 	}
@@ -655,8 +804,12 @@ p.widget-tomorow-temperature {
 }
 @media (max-width: 768px) {
 	.newslatter .col-4 {
+    display: block;
+    width: 100%;
+}
+	.history .col-4 {
 		display: block;
-		width: 100%;
+		width: 50%;
 	}
 	h3.newslatter-h3 {
 		text-align: center;
@@ -717,6 +870,10 @@ p.widget-tomorow-temperature {
 }
 
 @media (max-width: 491px) {
+	form .col-6 {
+		display: block;
+		width: 100%;
+	}
 	.gallery .col-3 {
 		display: block;
 		width: 100%;
@@ -791,9 +948,16 @@ p.widget-tomorow-temperature {
 		display: block;
 	}
 }
-@media (max-width: 348px) {
+@media (max-width: 375px) {
 	.flexsearch--input {
 		padding: 12px 23px;
+	}
+	textarea {
+		min-height: 225px;
+	}
+	.history .col-4 {
+		display: block;
+		width: 100%;
 	}
 	.header-top {
 		overflow: hidden;
